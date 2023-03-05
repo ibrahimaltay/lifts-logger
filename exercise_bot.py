@@ -2,9 +2,9 @@ import telegram
 import os
 
 from telegram.ext import Updater, CommandHandler
-from get_latest_data import get_latest_data
-from add_exercise import add_exercise
-from get_exercise_history import get_exercise_history
+from notion_handlers.get_latest_data import get_latest_data
+from notion_handlers.add_exercise import add_exercise
+from notion_handlers.get_exercise_history import get_exercise_history
 
 
 # Set up the Telegram bot
