@@ -113,6 +113,7 @@ def history_command_handler(update, context):
     # Send the exercise history to the user
     update.message.reply_text(message)
 
+
 history_handler = CommandHandler("history", history_command_handler)
 dispatcher.add_handler(history_handler)
 
